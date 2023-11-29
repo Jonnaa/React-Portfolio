@@ -10,7 +10,7 @@ export default function App() {
   return (
     <>
     {/* Nav Bar */}
-      <div>
+      <div className='navBar'>
         <Link to="/">Home Page</Link>
         <Link to="/about">About Me</Link>
         <Link to="/projects">Projects</Link>
