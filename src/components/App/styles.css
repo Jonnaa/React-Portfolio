@@ -14,14 +14,26 @@
       opacity: 1;
    }
 }
-
+.mainDiv{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
 .navBar{
-  background-color: blueviolet;
+  background-color: hsla(271, 100%, 16%, 0.51);
   display: flex;
   justify-content: center;
   gap:100px;
-  padding: 5px 20px;
+  height: 60px;
+  align-items: center;
 }
 .navBar a{
   color: white;
+}
+
+.footer{
+  background-color: hsla(271, 100%, 16%, 0.51);
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
