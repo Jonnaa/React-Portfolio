@@ -1,8 +1,11 @@
+import "./styles.css"
+
 export default function HomePage(){
 
     return (
-        <>
-            <h1>Home Page</h1>
-        </>
+        <div className="homeDiv">
+            <h1>Jonathan Navarro</h1>
+            <h3>Software Engineer</h3>
+        </div>
     )
 }
