@@ -13,7 +13,7 @@ export default function AboutMePage(){
                 I am sharp and can pick things up surprisingly quickly. I am dedicated and hard-working.<br /><br />
 
                 My hobbies include playing video games, watching movies/shows/videos, and bouldering.
-</p>
+            </p>
         </div>
     )
 }

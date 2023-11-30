@@ -31,9 +31,52 @@
   color: white;
 }
 
-.footer{
+
+/* ------------------------------------------------- */
+/*                        Footer                     */
+/* ------------------------------------------------- */
+
+.footerDiv{
   background-color: hsla(271, 100%, 16%, 0.51);
   position: fixed;
   bottom: 0;
   width: 100%;
+  height: 60px;
+}
+
+.links{
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+#gitHub, #linkedIn{
+  width: 40px;
+  display: block;
+}
+#darkGit, #lightGit, #darkLi, #lightLi{
+  width: 100%;
+}
+
+#lightGit, #lightLi{
+  display: none;
+}
+
+#gitHub:hover{
+  #darkGit{
+    display: none;
+  }
+  #lightGit{
+    display: block;
+  }
+}
+
+#linkedIn:hover{
+  #darkLi{
+    display: none;
+  }
+  #lightLi{
+    display: block;
+  }
 }
