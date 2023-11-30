@@ -6,14 +6,6 @@
   animation: fadeInAnimation ease 3s;
 }
 
-@keyframes fadeInAnimation {
-  0% {
-      opacity: 0;
-  }
-  100% {
-      opacity: 1;
-   }
-}
 .mainDiv{
   position: relative;
   display: flex;
@@ -24,7 +16,7 @@
   display: flex;
   justify-content: center;
   gap:100px;
-  height: 60px;
+  height: 50px;
   align-items: center;
 }
 .navBar a{
@@ -41,7 +33,7 @@
   position: fixed;
   bottom: 0;
   width: 100%;
-  height: 60px;
+  height: 70px;
 }
 
 .links{
@@ -52,31 +44,66 @@
   gap: 30px;
 }
 #gitHub, #linkedIn{
-  width: 40px;
+  width: 45px;
   display: block;
 }
 #darkGit, #lightGit, #darkLi, #lightLi{
   width: 100%;
+  display: block;
 }
 
-#lightGit, #lightLi{
+/* Make sure only one of the icons for each link shows */
+#darkGit, #darkLi{
   display: none;
 }
-
+#lightGit{
+  
+}
+/* Hover effect to change from dark icon to light icon */
 #gitHub:hover{
-  #darkGit{
+  #lightGit{
     display: none;
   }
-  #lightGit{
+  #darkGit{
     display: block;
+    background-color: #ff64e5;
+    border-radius: 50%;
+    padding-bottom: 1px;
+    animation: fadeInAnimation ease 2s;
+  }
+}
+#lightLi{
+  border-radius: 20%;
+}
+/* Hover effect to change from dark icon to light icon */
+#linkedIn:hover{
+  #lightLi{
+    display: none;
+  }
+  #darkLi{
+    display: block;
+    background-color: #ff64e5;
+    padding-top: 1px;
+    padding-left:1px;
+    border-radius: 20%;
+    animation: fadeInAnimation ease 2s;
   }
 }
 
-#linkedIn:hover{
-  #darkLi{
-    display: none;
+.resumeBtn{
+  background-color: rgb(101, 101, 101);
+}
+.resumeBtn:hover{
+  background-color: rgb(0, 0, 0);
+  color: #ff64e5;
+}
+
+
+@keyframes fadeInAnimation {
+  0% {
+      opacity: 0;
   }
-  #lightLi{
-    display: block;
-  }
+  100% {
+      opacity: 1;
+   }
 }
