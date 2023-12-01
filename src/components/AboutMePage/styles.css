@@ -1,5 +1,5 @@
 .aboutmeDiv{
-    height: 80vh;
+    /* height: 89vh; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -19,4 +19,19 @@ p{
     width: 60%;
     margin: 0 auto; 
     text-align: left;
+}
+
+.iconsDiv{
+    background-color: hsla(287, 100%, 87%, 0.385);
+    width: 60%;
+    margin: 0 auto;
+    padding: 5px;
+    border-radius: 10px;
+}
+.icon{
+    width: 70px;
+    max-height: 70px;
+    /* height: 70px; */
+    /* background-color: white; */
+    /* border-radius: 50%; */
 }

@@ -14,6 +14,19 @@ export default function AboutMePage(){
 
                 My hobbies include playing video games, watching movies/shows/videos, and bouldering.
             </p>
+
+            <h2>Skills</h2>
+            <div className="iconsDiv">
+                <img src="skillsIcons/react.svg" alt="" className="icon" />
+                <img src="skillsIcons/python.png" alt="" className="icon" />
+                <img src="skillsIcons/js.png" alt="" className="icon" />
+                <img src="skillsIcons/html.png" alt="" className="icon" />
+                <img src="skillsIcons/css.png" alt="" className="icon" />
+                <img src="skillsIcons/mongodb.png" alt="" className="icon" />
+                <img src="skillsIcons/nodejs.png" alt="" className="icon" />
+                <img src="skillsIcons/tailwind.png" alt="" className="icon" />
+                <img src="skillsIcons/ejs.png" alt="" className="icon" />
+            </div>
         </div>
     )
 }
