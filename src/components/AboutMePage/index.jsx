@@ -17,15 +17,46 @@ export default function AboutMePage(){
 
             <h2>Skills</h2>
             <div className="iconsDiv">
-                <img src="skillsIcons/react.svg" alt="" className="icon" />
-                <img src="skillsIcons/python.png" alt="" className="icon" />
-                <img src="skillsIcons/js.png" alt="" className="icon" />
-                <img src="skillsIcons/html.png" alt="" className="icon" />
-                <img src="skillsIcons/css.png" alt="" className="icon" />
-                <img src="skillsIcons/mongodb.png" alt="" className="icon" />
-                <img src="skillsIcons/nodejs.png" alt="" className="icon" />
-                <img src="skillsIcons/tailwind.png" alt="" className="icon" />
-                <img src="skillsIcons/ejs.png" alt="" className="icon" />
+                <div className="icon">
+                    <img src="skillsIcons/react.svg" alt="" className="iconImg" title="React"/>
+                    <p>React</p>
+                </div>
+                <div className="icon">
+                    <img src="skillsIcons/python-removebg-preview.png" alt="" className="iconImg" />
+                    <p>Python</p>
+                </div>
+                <div className="icon">
+                    <img src="skillsIcons/js.png" alt="" className="iconImg" />
+                    <p>JavaScript</p>
+                </div>
+                <div className="icon">
+                    <img src="skillsIcons/html.png" alt="" className="iconImg" />
+                    <p>HTML</p>
+                </div>
+                <div className="icon">
+                    <img src="skillsIcons/css-removebg-preview.png" alt="" className="iconImg" />
+                    <p>CSS</p>
+                </div>
+                <div className="icon">
+                    <img src="skillsIcons/mongodb.png" alt="" className="iconImg" />
+                    <p>MongoDB</p>
+                </div>
+                <div className="icon">
+                    <img src="skillsIcons/nodejs.png" alt="" className="iconImg ex" />
+                    <p>NodeJS</p>
+                </div>
+                <div className="icon">
+                    <img src="skillsIcons/tailwind.png" alt="" className="iconImg" />
+                    <p>Tailwind</p>
+                </div>
+                <div className="icon">
+                    <img src="skillsIcons/ejs.png" alt="" className="iconImg ex" />
+                    <p>ExpressJS</p>
+                </div>
+                <div className="icon">
+                    <img src="skillsIcons/psql.png" alt="" className="iconImg" />
+                    <p>PostgreSQL</p>
+                </div>
             </div>
         </div>
     )
