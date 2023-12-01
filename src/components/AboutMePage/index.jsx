@@ -38,7 +38,7 @@ export default function AboutMePage(){
                     <p>CSS</p>
                 </div>
                 <div className="icon">
-                    <img src="skillsIcons/mongodb.png" alt="" className="iconImg" />
+                    <img src="skillsIcons/mdb.svg" alt="" className="iconImg" />
                     <p>MongoDB</p>
                 </div>
                 <div className="icon">
