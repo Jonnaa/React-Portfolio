@@ -6,6 +6,10 @@
     animation: fadeInAnimation ease 3s;
 }
 
+.projectImg{ 
+    width: 350px;
+}
+
 @keyframes fadeInAnimation {
     0% {
         opacity: 0;
