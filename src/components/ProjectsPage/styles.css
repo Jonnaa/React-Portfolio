@@ -6,10 +6,18 @@
     animation: fadeInAnimation ease 3s;
 }
 
-.projectImg{ 
-    width: 350px;
+.tempoPics{
+    width: 80vw;
+    max-width: 700px;
+    margin: 0 auto;
+    display: flex;
 }
-
+.projectImg{ 
+    width: 80%;
+}
+.btn{
+    width: 10%;
+}
 @keyframes fadeInAnimation {
     0% {
         opacity: 0;
