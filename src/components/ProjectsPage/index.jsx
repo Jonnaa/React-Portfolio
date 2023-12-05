@@ -4,7 +4,8 @@ import "./styles.css"
 export default function ProjectsPage(){
     const [tempoCount, setTempoCount] = useState(1)
     const [kdramasCount, setKdramasCount] = useState(1)
-    let tempoImg = <></>, kdramasImg=<></>
+    const [kitCount, setKitCount] = useState(1)
+    let tempoImg = <></>, kdramasImg=<></>, kitImg=<></>
 
     switch(tempoCount){
         case 1:
@@ -28,6 +29,17 @@ export default function ProjectsPage(){
             kdramasImg = <><img src="kdramasScreenshots/Review Details.jpg" alt="" className="projectImg"/></>
             break
     }
+    switch(kitCount){
+        case 1:
+            kitImg = <><img src="kitScreenshots/Landing Page.jpg" alt="" className="projectImg"/></>
+            break
+        case 2:
+            kitImg = <><img src="kitScreenshots/Post Details.jpg" alt="" className="projectImg"/></>
+            break
+        case 3:
+            kitImg = <><img src="kitScreenshots/Login.jpg" alt="" className="projectImg"/></>
+            break
+    }
     function handlePrev(event){
         let projName = event.target.className
         switch(projName){
@@ -45,6 +57,14 @@ export default function ProjectsPage(){
                     }
                     else{
                         setKdramasCount(3)
+                    }
+                    break
+                case 'kitBtn btn':
+                    if(kitCount>=2){
+                        setKitCount(kitCount-1)
+                    }
+                    else{
+                        setKitCount(3)
                     }
                     break
             default:
@@ -72,6 +92,14 @@ export default function ProjectsPage(){
                     setKdramasCount(1)
                 }
                 break
+            case 'kitBtn btn':
+                if(kitCount<=2){
+                    setKitCount(kitCount+1)
+                }
+                else{
+                    setKitCount(1)
+                }
+                break
             default:
                 console.log("No such project")
         }
@@ -95,6 +123,14 @@ export default function ProjectsPage(){
                         <button onClick={handlePrev} className="kdramasBtn btn">P<br/>r<br/>e<br/>v</button>
                         {kdramasImg}
                         <button onClick={handleNext} className="kdramasBtn btn">N<br/>e<br/>x<br/>t</button>
+                    </div>
+                </div>
+                <div className="kit">
+                    <h2><a href="" rel="noreferrer" target="_blank">KIT</a></h2>
+                    <div className="projPics">
+                        <button onClick={handlePrev} className="kitBtn btn">P<br/>r<br/>e<br/>v</button>
+                        {kitImg}
+                        <button onClick={handleNext} className="kitBtn btn">N<br/>e<br/>x<br/>t</button>
                     </div>
                 </div>
                 <div className="kit">
