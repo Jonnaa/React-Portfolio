@@ -126,7 +126,7 @@ export default function ProjectsPage(){
                     </div>
                 </div>
                 <div className="kit">
-                    <h2><a href="" rel="noreferrer" target="_blank">KIT</a></h2>
+                    <h2><a href="https://keepintouch-8d0a86903f9e.herokuapp.com/" rel="noreferrer" target="_blank">KIT</a></h2>
                     <div className="projPics">
                         <button onClick={handlePrev} className="kitBtn btn">P<br/>r<br/>e<br/>v</button>
                         {kitImg}
