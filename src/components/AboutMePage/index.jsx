@@ -14,7 +14,7 @@ export default function AboutMePage(){
 
                 My hobbies include playing video games, watching movies/shows/videos, and bouldering.
             </p>
-
+            <div className="line"></div>
             <h2>Skills</h2>
             <div className="iconsDiv">
                 <div className="icon">

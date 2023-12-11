@@ -1,22 +1,44 @@
+/* Holds everything displayed on the projects page */
 .projDiv{
-    /* height: 80vh; */
     display: flex;
     flex-direction: column;
     justify-content: center;
     animation: fadeInAnimation ease 3s;
+    margin-bottom: 20px;
 }
 
+/* Hold all the projects and their info */
 .projPics{
     width: 80vw;
     max-width: 700px;
     margin: 0 auto;
     display: flex;
 }
+
+/* Class for project pictures */
 .projectImg{ 
     width: 80%;
 }
+/* Btn class is for the buttons on either side of the project images */
 .btn{
     width: 10%;
+    line-height: 1.0;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.line{
+    width: 70%;
+    border-bottom: 2px solid rgb(50, 0, 97);
+    margin: 40px auto;
+}
+p{
+    margin-top: 40px;
+}
+h2 a{
+    color: white;
 }
 @keyframes fadeInAnimation {
     0% {
@@ -25,4 +47,22 @@
     100% {
         opacity: 1;
      }
+}
+
+@media only screen and (min-width:375px){
+    .btn{
+        font-size: 13px;
+    }
+}
+
+@media only screen and (min-width:425px){
+    .btn{
+        font-size: 15px;
+    }
+}
+
+@media only screen and (min-width:768px){
+    .btn{
+        font-size: 24px;
+    }
 }

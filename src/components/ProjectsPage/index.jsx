@@ -106,32 +106,44 @@ export default function ProjectsPage(){
     }
     return (
         <div className="projDiv">
-            <h1>Projects Page</h1>
+            <h1>Projects</h1>
 
             <div className="projectsDiv">
                 <div className="tempo">
-                <h2> <a href="https://tempoproject-1ccff4d917c0.herokuapp.com/home/" rel="noreferrer" target="_blank">Tempo</a></h2>
+                    <h2> <a href="https://tempoproject-1ccff4d917c0.herokuapp.com/home/" rel="noreferrer" target="_blank">Tempo</a></h2>
                     <div className="projPics">
-                        <button onClick={handlePrev} className="tempoBtn btn">P<br/>r<br/>e<br/>v</button>
+                        <button onClick={handlePrev} className="tempoBtn btn">p<br/>r<br/>e<br/>v</button>
                         {tempoImg}
-                        <button onClick={handleNext} className="tempoBtn btn">N<br/>e<br/>x<br/>t</button>
+                        <button onClick={handleNext} className="tempoBtn btn">n<br/>e<br/>x<br/>t</button>
                     </div>
+                    <p>
+                        Python full-stack application with use of Django template language. PSQL database. The app utilizes Spotify's API.
+                    </p>
                 </div>
+                <div className="line"></div>
                 <div className="kdramas">
                     <h2><a href="https://kdramas-4e345146c0e4.herokuapp.com" rel="noreferrer" target="_blank">K-Dramas</a></h2>
                     <div className="projPics">
-                        <button onClick={handlePrev} className="kdramasBtn btn">P<br/>r<br/>e<br/>v</button>
+                        <button onClick={handlePrev} className="kdramasBtn btn">p<br/>r<br/>e<br/>v</button>
                         {kdramasImg}
-                        <button onClick={handleNext} className="kdramasBtn btn">N<br/>e<br/>x<br/>t</button>
+                        <button onClick={handleNext} className="kdramasBtn btn">n<br/>e<br/>x<br/>t</button>
                     </div>
+                    <p>
+                        MEN Stack Application (MongoDB, Express.js, Node.js).
+                    </p>
                 </div>
+                <div className="line"></div>
                 <div className="kit">
                     <h2><a href="https://keepintouch-8d0a86903f9e.herokuapp.com/" rel="noreferrer" target="_blank">KIT</a></h2>
                     <div className="projPics">
-                        <button onClick={handlePrev} className="kitBtn btn">P<br/>r<br/>e<br/>v</button>
+                        <button onClick={handlePrev} className="kitBtn btn">p<br/>r<br/>e<br/>v</button>
                         {kitImg}
-                        <button onClick={handleNext} className="kitBtn btn">N<br/>e<br/>x<br/>t</button>
+                        <button onClick={handleNext} className="kitBtn btn">n<br/>e<br/>x<br/>t</button>
                     </div>
+                    <p>
+                        MERN Stack Application (MongoDB, Express, React, Node).<br />
+                        KIT was created so individuals could... keep in touch!
+                    </p>
                 </div>
                 <div className="kit">
 
