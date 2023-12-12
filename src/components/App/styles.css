@@ -51,6 +51,7 @@
   max-height: 40px;
   width: 100%;
   color: white;
+  padding: 5px 0;
 }
 .homeLink{
   border-top: 2px solid black;
