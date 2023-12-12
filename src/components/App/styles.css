@@ -11,21 +11,53 @@
   justify-content: space-between;
   min-height: 100vh;
 }
-.navBar{
+.navBarBurger{
+  background-color: rgb(50, 0, 97);
+  height: 50px;
+  display: flex;
+  justify-content: end;
+  position: sticky;
+  top: 0;
+}
+.navBarBurger button{
+  height: 100%;
   background-color: rgb(50, 0, 97);
   display: flex;
   justify-content: center;
-  gap:40px;
-  height: 50px;
   align-items: center;
-  position: sticky;
-  top: 0;
+}
+.navBarBurger button:hover{
+  background-color: #ff64e5;
+}
+.navBar{
+  display: none;
 }
 .navBar a{
   color: white;
 }
-
-
+.burger{
+  width: 40px;
+}
+.burgerLinks{
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(50, 0, 97);
+  width: 100%;
+  position: sticky;
+  top: 50px;
+}
+.burgerLink{
+  height: 30px;
+  max-height: 40px;
+  width: 100%;
+  color: white;
+}
+.homeLink{
+  border-top: 2px solid black;
+}
+.homeLink, .aboutLink{
+  border-bottom: 2px solid black;
+}
 /* ------------------------------------------------- */
 /*                        Footer                     */
 /* ------------------------------------------------- */
@@ -111,4 +143,20 @@
   100% {
       opacity: 1;
    }
+}
+
+@media only screen and (min-width:768px){
+  .navBarBurger, .burgerLinks{
+    display: none;
+  }
+  .navBar{
+    background-color: rgb(50, 0, 97);
+    display: flex;
+    justify-content: center;
+    gap:40px;
+    height: 50px;
+    align-items: center;
+    position: sticky;
+    top: 0;
+  }
 }
