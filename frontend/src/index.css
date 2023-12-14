@@ -61,13 +61,15 @@ button:focus-visible {
 
 /* Track(Contains the little bar)*/
 ::-webkit-scrollbar-track {
-  background: white;
+  /* background: white; */
+  background: black;
   border-radius: 3px;
 }
 
 /* Handle (bar idicating position of scroll)*/
 ::-webkit-scrollbar-thumb {
-  background: #000000;
+  /* background: #000000; */
+  background: white;
   border-radius: 3px;
 }
 

@@ -116,7 +116,7 @@ export default function ProjectsPage(){
                         {tempoImg}
                         <button onClick={handleNext} className="tempoBtn btn">n<br/>e<br/>x<br/>t</button>
                     </div>
-                    <p>
+                    <p className="projDesc">
                         Python full-stack application with use of Django template language. PSQL database. The app utilizes Spotify's API.
                     </p>
                 </div>
@@ -128,7 +128,7 @@ export default function ProjectsPage(){
                         {kdramasImg}
                         <button onClick={handleNext} className="kdramasBtn btn">n<br/>e<br/>x<br/>t</button>
                     </div>
-                    <p>
+                    <p className="projDesc">
                         MEN Stack Application (MongoDB, Express.js, Node.js).
                     </p>
                 </div>
@@ -140,7 +140,7 @@ export default function ProjectsPage(){
                         {kitImg}
                         <button onClick={handleNext} className="kitBtn btn">n<br/>e<br/>x<br/>t</button>
                     </div>
-                    <p>
+                    <p className="projDesc">
                         MERN Stack Application (MongoDB, Express, React, Node).<br />
                         KIT was created so individuals could... keep in touch!
                     </p>

@@ -34,10 +34,13 @@
     border-bottom: 2px solid rgb(50, 0, 97);
     margin: 40px auto;
 }
-p{
-    margin-top: 40px;
+.projDesc{
+    margin: 40px auto 0;
+    max-width: 225px;
+    font-size: .90em;
+    text-align: left;
 }
-h2 a{
+h2>a{
     color: white;
 }
 @keyframes fadeInAnimation {
@@ -53,16 +56,52 @@ h2 a{
     .btn{
         font-size: 13px;
     }
+    .projDesc{
+        max-width: 250px;
+        font-size: .95em;
+    }
 }
 
 @media only screen and (min-width:425px){
     .btn{
         font-size: 15px;
     }
+    h2>a{
+        font-size: 1.2em;
+    }
+    .projDesc{
+        max-width: 270px;
+        font-size: 1.1em;
+    }
 }
 
 @media only screen and (min-width:768px){
     .btn{
         font-size: 24px;
+    }
+    h2>a{
+        font-size: 1.3em;
+    }
+    .projDesc{
+        max-width: 400px;
+        font-size: 1.2em;
+    }
+}
+@media only screen and (min-width:1024px){
+    h2>a{
+        font-size: 1.4em;
+    }
+    .projDesc{
+        max-width: 450px;
+        font-size: 1.23em;
+    }
+}
+@media only screen and (min-width:1440px){
+    .projDiv{
+        margin-top: 100px;
+    }
+    .projDesc{
+        max-width: 500px;
+        font-size: 1.26em;
     }
 }

@@ -17,9 +17,9 @@ export default function App() {
       
       {/* Nav Bar */}
       <div className='navBar'>
-        <Link to="/">Home Page</Link>
-        <Link to="/about">About Me</Link>
-        <Link to="/projects">Projects</Link>
+        <Link to="/" className='navLink'>Home Page</Link>
+        <Link to="/about" className='navLink'>About Me</Link>
+        <Link to="/projects" className='navLink'>Projects</Link>
       </div>
       {/* Burger nav bar */}
       <div className='navBarBurger'>

@@ -11,6 +11,10 @@
   justify-content: space-between;
   min-height: 100vh;
 }
+
+/*-----------------------------*/
+/* Nav Bar under 768px(Mobile) */
+/*-----------------------------*/
 .navBarBurger{
   background-color: rgb(50, 0, 97);
   height: 50px;
@@ -28,12 +32,6 @@
 }
 .navBarBurger button:hover{
   background-color: #ff64e5;
-}
-.navBar{
-  display: none;
-}
-.navBar a{
-  color: white;
 }
 .burger{
   width: 40px;
@@ -59,6 +57,14 @@
 .homeLink, .aboutLink{
   border-bottom: 2px solid black;
 }
+
+/*-----------------------------*/
+/* Nav Bar over 768px(Tablet+) */
+/*-----------------------------*/
+.navBar{
+  display: none;
+}
+
 /* ------------------------------------------------- */
 /*                        Footer                     */
 /* ------------------------------------------------- */
@@ -159,5 +165,21 @@
     align-items: center;
     position: sticky;
     top: 0;
+  }
+  .navBar a{
+    color: white;
+  }
+  .navLink{
+    font-size: 20px;
+  }
+  .resumeBtn{
+    padding: 0.4em 1.1em;
+    font-size: 1.2em;
+  }
+}
+@media only screen and (min-width:1440px){
+  .resumeBtn{
+    padding: 0.4em 1em;
+    font-size: 1.3em;
   }
 }

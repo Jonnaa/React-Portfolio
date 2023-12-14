@@ -4,13 +4,14 @@
     flex-direction: column;
     justify-content: center;
     animation: fadeInAnimation ease 3s;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 
-p{
+#aboutMeP{
     width: 60%;
     margin: 0 auto; 
     text-align: left;
+    max-width: 700px;
 }
 
 .iconsDiv{
@@ -37,12 +38,13 @@ p{
     border-radius: 10px;
     position: relative;
 }
-.icon p {
+.iconP{
     text-align: center;
     width: 100%;
     position: absolute;
     bottom: 0;
     height: 23px;
+    margin: 0;
 }
 .iconImg{
     width: 60px;
@@ -63,4 +65,35 @@ p{
     100% {
         opacity: 1;
      }
+}
+@media only screen and (min-width:425px){
+    #aboutMeP{
+        font-size: 1.05em;
+    }
+}
+
+@media only screen and (min-width:768px){
+    #aboutMeP{
+        font-size: 1.1em;
+    }
+    .skillsH2{
+        font-size: 1.7em;
+    }
+}
+@media only screen and (min-width:1024px){
+    .aboutmeDiv{
+        margin-top: 80px;
+    }
+}
+@media only screen and (min-width:1440px){
+    .aboutmeDiv{
+        margin-top: 100px;
+    }
+    #aboutMeP{
+        font-size: 1.15em;
+    }
+    .skillsH2{
+        margin-top: 30px;
+        font-size: 1.8em;
+    }
 }
