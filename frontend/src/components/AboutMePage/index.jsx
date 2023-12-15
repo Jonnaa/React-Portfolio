@@ -6,13 +6,15 @@ export default function AboutMePage(){
         <div className="aboutmeDiv">
             <h1>About Me</h1>
             <p id="aboutMeP">
-                Hello! I am a software engineer with an educational background in computer science and a hands-on full-stack bootcamp. <br /><br />
+                Hello! I am a software engineer with an educational background in computer science and a hands-on experience at a full-stack bootcamp.<br /><br />
 
-                My past includes going to college for 3 years for a computer science degree. I decided to learn a specific set of skills rather than the basics of many topics, so I decided to seek a coding bootcamp. I have also worked in movie theaters for 3 years and was a highly valued team member. I received team member of the month for the opening month of a movie theater. <br /><br />
+                I have successfully created full-stack applications within one-week timeframes and deployed them onto a cloud platform. Additionally, I implemented authorization and authentication, utilizing Spotify's API, in a group project that also had a one-week timeframe.<br /><br />
 
-                I am sharp and can pick things up surprisingly quickly. I am dedicated and hard-working.<br /><br />
+                I am a dedicated, hard-working, quick learner who always aims to exceed expectations. Fueled by an unwavering love for problem-solving, a passion for excellence, and a relentless pursuit of improvement to every project.<br /><br />
 
-                My hobbies include playing video games, watching movies/shows/videos, and bouldering.
+                My past includes three years of pursuing a computer science degree, earning around 80 credits. Recognizing my need for a more hands-on learning environment to learn a specific set of skills, I chose to enroll in a coding bootcamp. I have also worked in movie theaters for a total of three years and was a highly valued team member at each location. I received the team member of the month award during the opening month of a movie theater, which at the time had around 70 employees. <br /><br />
+
+                Beyond my professional life, my hobbies include playing video games, watching movies and shows, and bouldering.
             </p>
             <div className="line"></div>
             <h2 className="skillsH2">Skills</h2>
