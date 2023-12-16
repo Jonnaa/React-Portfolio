@@ -117,7 +117,8 @@ export default function ProjectsPage(){
                         <button onClick={handleNext} className="tempoBtn btn">n<br/>e<br/>x<br/>t</button>
                     </div>
                     <p className="projDesc">
-                        Python full-stack application with use of Django template language. PSQL database. The app utilizes Spotify's API.
+                        Full-stack application that utilizes Spotify's API to display artists, top tracks, and lets users play songs. <br />
+                        Built with: Python, Django, PSQL
                     </p>
                 </div>
                 <div className="line"></div>
@@ -129,7 +130,8 @@ export default function ProjectsPage(){
                         <button onClick={handleNext} className="kdramasBtn btn">n<br/>e<br/>x<br/>t</button>
                     </div>
                     <p className="projDesc">
-                        MEN Stack Application (MongoDB, Express.js, Node.js).
+                        Full-stack application that displays K-Dramas with reviews, and allows the user to add K-Dramas to a watchlist. <br />
+                        Built with: MongoDB, Express.js, Node.js (MEN stack)
                     </p>
                 </div>
                 <div className="line"></div>
@@ -141,12 +143,10 @@ export default function ProjectsPage(){
                         <button onClick={handleNext} className="kitBtn btn">n<br/>e<br/>x<br/>t</button>
                     </div>
                     <p className="projDesc">
-                        MERN Stack Application (MongoDB, Express, React, Node).<br />
-                        KIT was created so individuals could... keep in touch!
+                        KIT is a full-stack application that allows users to... Keep In Touch!
+                        Users can sign up, upload pictures, and comment on pictures. <br />
+                        Built with: MongoDB, Express.js, React, Node.js (MERN stack)
                     </p>
-                </div>
-                <div className="kit">
-
                 </div>
             </div>
         </div>
