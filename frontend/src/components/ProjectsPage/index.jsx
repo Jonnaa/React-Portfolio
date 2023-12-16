@@ -117,8 +117,8 @@ export default function ProjectsPage(){
                         <button onClick={handleNext} className="tempoBtn btn">n<br/>e<br/>x<br/>t</button>
                     </div>
                     <p className="projDesc">
-                        Full-stack application that utilizes Spotify's API to display artists, top tracks, and lets users play songs. <br />
-                        Built with: Python, Django, PSQL <br />
+                        Full-stack application that utilizes Spotify's API to display artists, top tracks, and lets users play songs. <br /><br />
+                        Built with: Python, Django, PSQL <br /><br />
                         <div className="projGit">
                             | <a href="https://github.com/amerazo/spotify_clone" rel="noreferrer" target="_blank">GitHub</a> | <a href="https://tempoproject-1ccff4d917c0.herokuapp.com/home/" rel="noreferrer" target="_blank">Website</a> |
                         </div>
@@ -133,8 +133,8 @@ export default function ProjectsPage(){
                         <button onClick={handleNext} className="kdramasBtn btn">n<br/>e<br/>x<br/>t</button>
                     </div>
                     <p className="projDesc">
-                        Full-stack application that displays K-Dramas with reviews, and allows the user to add K-Dramas to a watchlist. <br />
-                        Built with: MongoDB, Express.js, Node.js (MEN stack) <br />
+                        Full-stack application that displays K-Dramas with reviews, and allows the user to add K-Dramas to a watchlist. <br /><br />
+                        Built with: MongoDB, Express.js, Node.js (MEN stack) <br /> <br />
                         <div className="projGit">
                             | <a href="https://github.com/Jonnaa/KDramaWatchList" rel="noreferrer" target="_blank">GitHub</a> | <a href="https://kdramas-4e345146c0e4.herokuapp.com/" rel="noreferrer" target="_blank">Website</a> |
                         </div>
@@ -150,8 +150,8 @@ export default function ProjectsPage(){
                     </div>
                     <p className="projDesc">
                         KIT is a full-stack application that allows users to... Keep In Touch!
-                        Users can sign up, upload pictures, and comment on pictures. <br />
-                        Built with: MongoDB, Express.js, React, Node.js (MERN stack) <br />
+                        Users can sign up, upload pictures, and comment on pictures. <br /><br />
+                        Built with: MongoDB, Express.js, React, Node.js (MERN stack) <br /><br />
                         <div className="projGit">
                             | <a href="https://github.com/Jonnaa/KIT" rel="noreferrer" target="_blank">GitHub</a> | <a href="https://keepintouch-8d0a86903f9e.herokuapp.com/" rel="noreferrer" target="_blank">Website</a> |
                         </div>
