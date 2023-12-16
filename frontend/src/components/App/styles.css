@@ -53,6 +53,9 @@
   color: white;
   padding: 5px 0;
 }
+.burgerLink:hover{
+  color:#ff64e5;
+}
 .homeLink{
   border-top: 2px solid black;
 }
@@ -174,9 +177,12 @@
     position: sticky;
     top: 0;
   }
-  .navBar a{
+  .navBar>a{
     color: white;
   }
+  .navBar>a:hover{
+    color:#ff64e5;
+}
   .navLink{
     font-size: 20px;
   }
