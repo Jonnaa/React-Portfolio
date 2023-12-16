@@ -43,6 +43,9 @@
 h2>a{
     color: white;
 }
+h2>a:hover{
+    color:#ff64e5;
+}
 @keyframes fadeInAnimation {
     0% {
         opacity: 0;
