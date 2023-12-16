@@ -45,11 +45,14 @@
     font-size: .90em;
     text-align: left;
 }
-h2>a{
+h2>a, .projGit>a{
     color: white;
 }
-h2>a:hover{
+h2>a:hover, .projGit>a:hover{
     color:#ff64e5;
+}
+.projGit{
+    text-align: center;
 }
 @keyframes fadeInAnimation {
     0% {

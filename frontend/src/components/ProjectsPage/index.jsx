@@ -118,7 +118,10 @@ export default function ProjectsPage(){
                     </div>
                     <p className="projDesc">
                         Full-stack application that utilizes Spotify's API to display artists, top tracks, and lets users play songs. <br />
-                        Built with: Python, Django, PSQL
+                        Built with: Python, Django, PSQL <br />
+                        <div className="projGit">
+                            | <a href="https://github.com/amerazo/spotify_clone" rel="noreferrer" target="_blank">GitHub</a> | <a href="https://tempoproject-1ccff4d917c0.herokuapp.com/home/" rel="noreferrer" target="_blank">Website</a> |
+                        </div>
                     </p>
                 </div>
                 <div className="line"></div>
@@ -131,7 +134,10 @@ export default function ProjectsPage(){
                     </div>
                     <p className="projDesc">
                         Full-stack application that displays K-Dramas with reviews, and allows the user to add K-Dramas to a watchlist. <br />
-                        Built with: MongoDB, Express.js, Node.js (MEN stack)
+                        Built with: MongoDB, Express.js, Node.js (MEN stack) <br />
+                        <div className="projGit">
+                            | <a href="https://github.com/Jonnaa/KDramaWatchList" rel="noreferrer" target="_blank">GitHub</a> | <a href="https://kdramas-4e345146c0e4.herokuapp.com/" rel="noreferrer" target="_blank">Website</a> |
+                        </div>
                     </p>
                 </div>
                 <div className="line"></div>
@@ -145,7 +151,10 @@ export default function ProjectsPage(){
                     <p className="projDesc">
                         KIT is a full-stack application that allows users to... Keep In Touch!
                         Users can sign up, upload pictures, and comment on pictures. <br />
-                        Built with: MongoDB, Express.js, React, Node.js (MERN stack)
+                        Built with: MongoDB, Express.js, React, Node.js (MERN stack) <br />
+                        <div className="projGit">
+                            | <a href="https://github.com/Jonnaa/KIT" rel="noreferrer" target="_blank">GitHub</a> | <a href="https://keepintouch-8d0a86903f9e.herokuapp.com/" rel="noreferrer" target="_blank">Website</a> |
+                        </div>
                     </p>
                 </div>
             </div>
